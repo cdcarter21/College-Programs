@@ -55,19 +55,3 @@ int count_cc(Edge **edges, int vertices) {
 
     return count;
 }
-
-// int main() {
-//     Edge e[] = {
-//         {1,nullptr},
-//     };
-
-//     Edge * g[] = {
-//         e+0,
-//         nullptr
-//     };
-
-//     int num = count_cc(g, 2);
-//     cout << "Number of connected components: " << num << endl;
-
-//     assert(count_cc(g,2) == 0);
-// }
